@@ -1,0 +1,4 @@
+10;cdsMaster;rua1
+20;primosCds;rua2
+30;zaCds;rua3
+40;tCds;rua4

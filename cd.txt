@@ -1,0 +1,10 @@
+10;muśica Clássica;10
+20;mpb;20
+30;Barroco;30
+40;Opera;10
+50;Clássicos;20
+60;Coral;30
+70;Operas italianas;20
+80;Vangarda;10
+
+
