@@ -4,7 +4,11 @@
 40;Opera;10
 50;Clássicos;20
 60;Coral;30
-70;Operas italianas;20
+70;Operas italianas;40
 80;Vangarda;10
+90;Melor;40
+100;Chator;40
+110;Dois;20
+120;Russos;30
 
 

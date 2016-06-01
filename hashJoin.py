@@ -43,7 +43,7 @@ def make_Join(tabela1, indice_atributo1, tabela2, indice_atributo2):
 
     for key in particoes1:
         if particoes2.get(key) == None:
-         break
+         continue
         else:
          for t in particoes1[key]:
              for t2 in particoes2[key]:
@@ -53,19 +53,6 @@ def make_Join(tabela1, indice_atributo1, tabela2, indice_atributo2):
 
 
 
-    return tabela_join
+    return sorted(tabela_join)
 
-gravadora = ler_tabela('gravadora.txt')
-cds = ler_tabela('cd.txt')
-faixas = ler_tabela('faixa.txt')
 
-join = make_Join(gravadora, 0, cds, 2)
-
-print('primaeira união')
-for t in join:
-    print(t)
-print('segunda união')
-final_join = make_Join(join, 3, faixas, 1)
-
-for t in final_join:
-    print(t)
