@@ -9,10 +9,10 @@ def hash(tabelas):
     nun_ref = 0
 
     while len(tabelas) != 1:
-        print('entrou')
+        #print('entrou')
 
         aux = len(tabelas[1][0])
-        print(aux)
+        #print(aux)
         juncao = hashJoin.make_Join(tabelas[0], nun_ref, tabelas[1], len(tabelas[1][0]) - 1)
         tabelas.pop(0)
         tabelas.pop(0)
